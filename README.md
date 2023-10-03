@@ -1,4 +1,4 @@
-# Code - Active fault-tolerant system design for a rigid spacecraft in the presence of actuator faults and saturation constraints.  
+# Simulink Code - Active fault-tolerant system design for a rigid spacecraft in the presence of actuator faults and saturation constraints.  
 
 Please refer to the reference: 
 
@@ -14,6 +14,6 @@ SO3_model_AIS.slx
 - plot2D.m 
 - plot3D.m  
 
-## Plot the attitude, angular velocity and control input
+## Plot the attitude, angular velocity, and control input
 - plotResultSO3v1.m 
 - plotResultSO3v2.m
