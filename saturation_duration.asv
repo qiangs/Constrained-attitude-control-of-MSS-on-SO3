@@ -1,0 +1,32 @@
+% load u1.mat
+% load u2.mat
+% load u3.mat
+% 
+% del_t=0.02;
+% A1=sum(u1(2,:)==1)+sum(u1(3,:)==1)+sum(u1(4,:)==1);
+% A2=sum(u2(2,:)==1)+sum(u2(3,:)==1)+sum(u2(4,:)==1);
+% A3=sum(u3(2,:)==1)+sum(u3(3,:)==1)+sum(u3(4,:)==1);
+% 
+% A=(A1+A2+A3)*del_t;
+
+% load u1DIS.mat
+% load u2DIS.mat
+% load u3DIS.mat
+% 
+% del_t=0.02;
+% B1=sum(u1DIS(2,:)==1)+sum(u1DIS(3,:)==1)+sum(u1DIS(4,:)==1);
+% B2=sum(u2DIS(2,:)==1)+sum(u2DIS(3,:)==1)+sum(u2DIS(4,:)==1);
+% B3=sum(u3DIS(2,:)==1)+sum(u3DIS(3,:)==1)+sum(u3DIS(4,:)==1);
+% 
+% B=(B1+B2+B3)*del_t;
+
+load u1noIS.mat
+load u2noIS.mat
+load u3noIS.mat
+
+del_t=0.02;
+C1=sum(u1DIS(2,:)==1)+sum(u1DIS(3,:)==1)+sum(u1DIS(4,:)==1);
+C2=sum(u2DIS(2,:)==1)+sum(u2DIS(3,:)==1)+sum(u2DIS(4,:)==1);
+C3=sum(u3DIS(2,:)==1)+sum(u3DIS(3,:)==1)+sum(u3DIS(4,:)==1);
+
+C3=(C1+C2+C3)*del_t;
